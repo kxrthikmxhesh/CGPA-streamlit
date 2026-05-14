@@ -63,8 +63,7 @@ st.title("🎓 CGPA Analytical Report System")
 st.markdown("### 📊 Behavioral Analysis & Academic Risk Evaluation")
 
 # ---------------- LOAD MODEL ---------------- #
-model = joblib.load("model/cgpa_model.joblib")
-
+model = joblib.load("cgpa_model.joblib")
 # ---------------- INPUT ---------------- #
 st.markdown("## 📥 Input Details")
 
