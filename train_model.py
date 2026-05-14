@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 # Load dataset
-df = pd.read_csv("data/final_dataset.csv")
+df = pd.read_csv("final_dataset.csv")
 
 # Encoding maps
 cgpa_map = {
